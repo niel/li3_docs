@@ -83,6 +83,7 @@ class ApiBrowserController extends \lithium\action\Controller {
 	 *                 browsed, in which the current entity is contained.
 	 *               - `'object'`: A multi-level array containing all data extracted about the
 	 *                 current entity.
+	 * @throws Exception
 	 */
 	public function view() {
 		$extractor = $this->_classes['extractor'];
